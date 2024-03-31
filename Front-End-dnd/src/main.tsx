@@ -6,6 +6,8 @@ import { ThemeProvider } from '@mui/material/styles';
 import App from './App';
 import theme from './theme';
 
+import "@/style.css";
+
 const rootElement = document.getElementById('root');
 const root = ReactDOM.createRoot(rootElement!);
 
